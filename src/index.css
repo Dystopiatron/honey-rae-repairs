@@ -65,12 +65,18 @@ button {
   border-radius: 0.5rem;
   color: var(--white);
   cursor: pointer;
+  display: flex;
+  flex-direction: row
 }
 
 /* These are all the color options for the buttons */
 /* If you change the color variables, be sure to change the hover colors to be a darker shade of the colors you chose*/
 .btn-primary {
   background-color: var(--primary);
+  display: flex;
+  flex-direction: row;
+  gap: 1rem; 
+  margin-bottom: 1rem;
 }
 
 .btn-primary:hover {
@@ -101,13 +107,4 @@ button {
   background-color: #71a500;
 }
 
-/* This CSS can be deleted. It is only used for the first chapter */
-.welcome {
-  text-align: center;
-  margin: 5rem 14rem;
-  font-size: 4rem;
-  color: aliceblue;
-  font-weight: bold;
-  text-shadow: 2px 3px 4px lightslategray;
-}
 
